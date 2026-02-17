@@ -49,9 +49,7 @@ export default function Nav({ ctaUrl }: { ctaUrl: string }) {
             Pricing
           </a>
           <Button asChild className="glow-cyan">
-            <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
-              Book an Audit
-            </a>
+            <a href={ctaUrl}>Book an Audit</a>
           </Button>
         </div>
 
@@ -91,9 +89,7 @@ export default function Nav({ ctaUrl }: { ctaUrl: string }) {
               Pricing
             </a>
             <Button asChild className="glow-cyan w-full">
-              <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
-                Book an Audit
-              </a>
+              <a href={ctaUrl}>Book an Audit</a>
             </Button>
           </div>
         </div>

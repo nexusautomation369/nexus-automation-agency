@@ -32,7 +32,7 @@ export default function FinalCta({ ctaUrl }: { ctaUrl: string }) {
             size="lg"
             className="glow-cyan h-14 px-10 text-lg font-semibold"
           >
-            <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
+            <a href={ctaUrl}>
               Book Your Free Audit
               <ArrowRight className="ml-2 size-5" />
             </a>

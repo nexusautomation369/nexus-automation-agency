@@ -48,7 +48,7 @@ export default function Hero({ ctaUrl }: { ctaUrl: string }) {
               size="lg"
               className="glow-cyan h-12 px-8 text-base font-semibold"
             >
-              <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
+              <a href={ctaUrl}>
                 Get an AI Process Audit
                 <ArrowRight className="ml-1 size-4" />
               </a>

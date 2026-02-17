@@ -16,8 +16,6 @@ export default function Footer({ ctaUrl }: { ctaUrl: string }) {
           <div className="flex items-center gap-6">
             <a
               href={ctaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
               className="text-sm text-muted-foreground transition-colors hover:text-accent-cyan"
             >
               Book an Audit

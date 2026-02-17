@@ -78,7 +78,7 @@ export default function Offers({ ctaUrl }: { ctaUrl: string }) {
                 variant={offer.highlighted ? "default" : "outline"}
                 className={offer.highlighted ? "glow-cyan" : ""}
               >
-                <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
+                <a href={ctaUrl}>
                   {offer.cta}
                   <ArrowRight className="ml-1 size-4" />
                 </a>
